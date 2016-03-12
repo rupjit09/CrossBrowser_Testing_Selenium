@@ -1,0 +1,55 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results skipped="0" failed="0" total="2" passed="2">
+  <reporter-output>
+  </reporter-output>
+  <suite name="Suite" duration-ms="15059" started-at="2016-03-12T17:51:02Z" finished-at="2016-03-12T17:51:17Z">
+    <groups>
+    </groups>
+    <test name="Test-Chrome" duration-ms="14884" started-at="2016-03-12T17:51:02Z" finished-at="2016-03-12T17:51:17Z">
+      <class name="pack1.TestBase">
+        <test-method status="PASS" signature="launchBrowser(java.lang.String)[pri:0, instance:pack1.TestBase@75d8ac9d]" name="launchBrowser" is-config="true" duration-ms="3064" started-at="2016-03-12T23:21:02Z" finished-at="2016-03-12T23:21:05Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[chrome]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- launchBrowser -->
+        <test-method status="PASS" signature="goToURL()[pri:0, instance:pack1.TestBase@75d8ac9d]" name="goToURL" duration-ms="10107" started-at="2016-03-12T23:21:05Z" finished-at="2016-03-12T23:21:16Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- goToURL -->
+        <test-method status="PASS" signature="quitBrowser()[pri:0, instance:pack1.TestBase@75d8ac9d]" name="quitBrowser" is-config="true" duration-ms="1707" started-at="2016-03-12T23:21:16Z" finished-at="2016-03-12T23:21:17Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- quitBrowser -->
+      </class> <!-- pack1.TestBase -->
+    </test> <!-- Test-Chrome -->
+    <test name="Test-Firefox" duration-ms="15059" started-at="2016-03-12T17:51:02Z" finished-at="2016-03-12T17:51:17Z">
+      <class name="pack1.TestBase">
+        <test-method status="PASS" signature="launchBrowser(java.lang.String)[pri:0, instance:pack1.TestBase@1dcd8d1f]" name="launchBrowser" is-config="true" duration-ms="6722" started-at="2016-03-12T23:21:02Z" finished-at="2016-03-12T23:21:09Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[firefox]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- launchBrowser -->
+        <test-method status="PASS" signature="goToURL()[pri:0, instance:pack1.TestBase@1dcd8d1f]" name="goToURL" duration-ms="7862" started-at="2016-03-12T23:21:09Z" finished-at="2016-03-12T23:21:17Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- goToURL -->
+        <test-method status="PASS" signature="quitBrowser()[pri:0, instance:pack1.TestBase@1dcd8d1f]" name="quitBrowser" is-config="true" duration-ms="459" started-at="2016-03-12T23:21:17Z" finished-at="2016-03-12T23:21:17Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- quitBrowser -->
+      </class> <!-- pack1.TestBase -->
+    </test> <!-- Test-Firefox -->
+  </suite> <!-- Suite -->
+</testng-results>

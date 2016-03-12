@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results skipped="0" failed="0" total="2" passed="2">
+  <reporter-output>
+  </reporter-output>
+  <suite name="Sample Grid Test" duration-ms="14655" started-at="2016-03-12T12:33:58Z" finished-at="2016-03-12T12:34:12Z">
+    <groups>
+    </groups>
+    <test name="Test1chrome" duration-ms="14528" started-at="2016-03-12T12:33:58Z" finished-at="2016-03-12T12:34:12Z">
+      <class name="gridTest.ParallelGrid_Browser">
+        <test-method status="PASS" signature="launchBrowser(java.lang.String)[pri:0, instance:gridTest.ParallelGrid_Browser@26116f4f]" name="launchBrowser" duration-ms="14523" started-at="2016-03-12T18:03:58Z" finished-at="2016-03-12T18:04:12Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[chrome]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- launchBrowser -->
+      </class> <!-- gridTest.ParallelGrid_Browser -->
+    </test> <!-- Test1chrome -->
+    <test name="Test1firefox" duration-ms="14655" started-at="2016-03-12T12:33:58Z" finished-at="2016-03-12T12:34:12Z">
+      <class name="gridTest.ParallelGrid_Browser">
+        <test-method status="PASS" signature="launchBrowser(java.lang.String)[pri:0, instance:gridTest.ParallelGrid_Browser@7c605a28]" name="launchBrowser" duration-ms="14634" started-at="2016-03-12T18:03:58Z" finished-at="2016-03-12T18:04:12Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[firefox]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- launchBrowser -->
+      </class> <!-- gridTest.ParallelGrid_Browser -->
+    </test> <!-- Test1firefox -->
+  </suite> <!-- Sample Grid Test -->
+</testng-results>

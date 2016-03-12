@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="Failed suite [Sample Grid Test]">
+  <parameter name="browserName" value="chrome"/>
+  <test name="Test1(failed)">
+    <parameter name="browserName" value="chrome"/>
+    <classes>
+      <class name="gridTest.ParallelGrid_Browser">
+        <methods>
+          <include name="launchBrowser" invocation-numbers="0"/>
+        </methods>
+      </class> <!-- gridTest.ParallelGrid_Browser -->
+    </classes>
+  </test> <!-- Test1(failed) -->
+</suite> <!-- Failed suite [Sample Grid Test] -->
