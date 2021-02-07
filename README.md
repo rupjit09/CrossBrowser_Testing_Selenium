@@ -2,7 +2,7 @@
 Cross browser testing using selenium
 Cross Browser Testing in Selenium:
 1:Cross browser testing using selenium Grid.
- Selenium grid can be used to execute testcases in different browser, in different machines, in different browser versions, in different OS simultaneously. It dramatically accelerates the testing process across browsers and across platforms by giving us quick and accurate feedback.
+   Selenium grid can be used to execute testcases in different browser, in different machines, in different browser versions, in different OS simultaneously. It dramatically accelerates the testing process across browsers and across platforms by giving us quick and accurate feedback.
 Selenium Grid allows us to execute multiple instances of WebDriver or Selenium Remote Control tests in parallel which uses the same code base, hence the code need NOT be present on the system they execute.
 
 Selenium Grid has a Hub and a Node.
